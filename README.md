@@ -1,29 +1,93 @@
-# Recipe Hunt Website
+# 🍽️ Recipe Hunt
 
-Recipe Hunt is a multipage responsive recipe app built with Vite, React JS, React Router, and Styled Components. It allows users to search for recipes, view details, and get step-by-step instructions for cooking their favorite dishes.
+**Recipe Hunt** is a sleek, multipage recipe app built with **React**, **Vite**, **React Router**, and **Styled Components**. It allows users to search for recipes, view detailed instructions, and cook up something delicious—anytime, anywhere.
 
-Check out the live app: [Recipe-Hunt](https://recipe-hunts.netlify.app/)
+🔗 **Live Demo**: [https://recipe-hunts.netlify.app](https://recipe-hunts.netlify.app)
 
-## Features
+---
 
-- **Recipe Search:** Search for recipes by dish name or keyword.
-- **Recipe Details:** View detailed information about a recipe, including ingredients and instructions.
-- **Responsive Design:** The app is fully responsive and works on various devices and screen sizes.
-- **External API:** Utilizes the Spoonacular API to fetch recipe data.
+## ✨ Features
 
-## Installation
+- 🔍 **Search Recipes**: Find recipes by dish name or keywords.
+- 📋 **View Details**: See ingredients, instructions, and cooking time.
+- 📱 **Responsive UI**: Looks great on mobile, tablet, and desktop.
+- 🍴 **Real Data**: Fetches recipe info via the [Spoonacular API](https://spoonacular.com/food-api).
 
-To run this project locally, follow these steps:
+---
 
-1. Clone the repository:
+## 🛠️ Tech Stack
 
-   ```bash
-   git clone https://github.com/AbhishekNegi12/Recipe-hunt.git
-   cd tasty-bites-recipe-app
-   npm install
-   VITE_MY_API_KEY=your-api-key
-   npm run dev
-   
-# Contributing
+- ⚛️ React JS
+- ⚡ Vite
+- 🎨 Styled Components
+- 🌐 React Router
+- 📡 Spoonacular API
 
-Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js installed on your machine
+- A free Spoonacular API key (you can get it [here](https://spoonacular.com/food-api))
+
+### Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/AbhishekNegi12/Recipe-hunt.git
+
+# Navigate into the project directory
+cd tasty-bites-recipe-app
+
+# Install dependencies
+npm install
+
+# Set your API key in an .env file
+echo "VITE_MY_API_KEY=your-api-key-here" > .env
+
+# Run the app
+npm run dev
+```
+
+---
+
+## 📁 Folder Structure (Basic)
+
+```
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── RecipeCard.jsx
+│   └── ...
+├── pages/
+│   ├── Home.jsx
+│   ├── RecipeDetails.jsx
+│   └── ...
+├── App.jsx
+├── main.jsx
+└── styles/
+```
+
+---
+
+## 🤝 Contributing
+
+Have a suggestion or found a bug? Contributions are more than welcome!
+
+- Fork the repository
+- Create your branch (`git checkout -b feature-branch`)
+- Commit your changes (`git commit -m 'Add new feature'`)
+- Push to the branch (`git push origin feature-branch`)
+- Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+Enjoy hunting recipes! 🍕🥗🍜
